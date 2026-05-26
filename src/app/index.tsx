@@ -10,4 +10,3 @@ export default function IndexScreen() {
 
   return <Redirect href="/(auth)/login" />;
 }
-w;
