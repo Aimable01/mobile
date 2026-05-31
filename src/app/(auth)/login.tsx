@@ -11,10 +11,10 @@ import {
 
 import { router } from "expo-router";
 
-import Button from "../../components/Button";
 import ErrorMessage from "../../components/ErrorMessage";
 import Input from "../../components/Input";
 import { useAuth } from "../../services/AuthContext";
+import Button from "@/components/Button";
 
 export default function LoginScreen() {
   const { login } = useAuth();
